@@ -1,0 +1,30 @@
+{
+  "name": "tour_mini-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack",
+    "watch": "npx webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "d3": "^5.16.0",
+    "lodash": "^4.17.19",
+    "xlsx": "^0.16.4"
+  }
+}

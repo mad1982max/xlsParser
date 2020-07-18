@@ -1,0 +1,63 @@
+body {
+    color: #460707;
+}
+
+
+.label {
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.label:hover {
+    color: white;
+    background: #333;
+}
+
+#data {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.singleSheet {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.singleSheet:hover {
+    background: yellow;
+    cursor: pointer;
+}
+
+.labelInfo {
+    display: inline-block;
+    color: #333;
+}
+
+
+.singleSKey {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.singleSKey:hover {
+    background: rgb(167, 118, 45);
+    cursor: pointer;
+}
